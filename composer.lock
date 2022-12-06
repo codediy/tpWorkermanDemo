@@ -7,88 +7,18 @@
     "content-hash": "42414c517f4d7eb6baa1b40e85d585ec",
     "packages": [
         {
-            "name": "hightman/xunsearch",
-            "version": "1.4.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hightman/xs-sdk-php.git",
-                "reference": "6781b1b92bc7cb3a507510cf31bcede8668e201a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hightman/xs-sdk-php/zipball/6781b1b92bc7cb3a507510cf31bcede8668e201a",
-                "reference": "6781b1b92bc7cb3a507510cf31bcede8668e201a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "lib-pcre": "*",
-                "php": ">=5.3.0"
-            },
-            "bin": [
-                "util/xs"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "lib/",
-                    "wrapper/yii-ext/"
-                ],
-                "psr-4": {
-                    "hightman\\xunsearch\\": "wrapper/yii2-ext/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "hightman",
-                    "email": "hightman@twomice.net",
-                    "role": "Founder and project leader"
-                }
-            ],
-            "description": "xunsearch php sdk, include yii, yii2 supports",
-            "homepage": "http://www.xunsearch.com/",
-            "keywords": [
-                "search engine",
-                "xunsearch",
-                "yii",
-                "yii2"
-            ],
-            "time": "2019-01-04T09:15:41+00:00"
-        },
-        {
             "name": "topthink/framework",
-            "version": "v5.1.37.1",
+            "version": "v5.1.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "05eecd121d18d6705aaa10aa44fcdf7c14da4d0b"
+                "reference": "ecf1a90d397d821ce2df58f7d47e798c17eba3ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/05eecd121d18d6705aaa10aa44fcdf7c14da4d0b",
-                "reference": "05eecd121d18d6705aaa10aa44fcdf7c14da4d0b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/top-think/framework/zipball/ecf1a90d397d821ce2df58f7d47e798c17eba3ad",
+                "reference": "ecf1a90d397d821ce2df58f7d47e798c17eba3ad",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.6.0",
@@ -125,33 +55,31 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2019-05-28T06:57:29+00:00"
+            "support": {
+                "issues": "https://github.com/top-think/framework/issues",
+                "source": "https://github.com/top-think/framework/tree/v5.1.42"
+            },
+            "time": "2022-10-25T15:04:49+00:00"
         },
         {
             "name": "topthink/think-installer",
-            "version": "v2.0.0",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-installer.git",
-                "reference": "f5400a12c60e513911aef41fe443fa6920952675"
+                "reference": "38ba647706e35d6704b5d370c06f8a160b635f88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-installer/zipball/f5400a12c60e513911aef41fe443fa6920952675",
-                "reference": "f5400a12c60e513911aef41fe443fa6920952675",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/top-think/think-installer/zipball/38ba647706e35d6704b5d370c06f8a160b635f88",
+                "reference": "38ba647706e35d6704b5d370c06f8a160b635f88",
+                "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0||^2.0"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0||^2.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -172,7 +100,11 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2018-05-11T06:45:42+00:00"
+            "support": {
+                "issues": "https://github.com/top-think/think-installer/issues",
+                "source": "https://github.com/top-think/think-installer/tree/v2.0.5"
+            },
+            "time": "2021-01-14T12:12:14+00:00"
         },
         {
             "name": "topthink/think-worker",
@@ -332,5 +264,6 @@
     "platform": {
         "php": ">=5.6.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
